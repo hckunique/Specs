@@ -6,7 +6,7 @@
   "homepage": "http://developer.affectiva.com",
   "license": {
     "type": "Commercial",
-    "text": "http://developer.affectiva.com/sdklicense"
+    "file": "LICENSE.md"
   },
   "authors": "Affectiva",
   "social_media_url": "http://twitter.com/affectiva",
@@ -14,10 +14,10 @@
     "osx": "10.9"
   },
   "source": {
-    "http": "https://download.affectiva.com/apple/affdex-sdk_osx_3_1_1_493.tar.gz"
+    "http": "https://download.affectiva.com/apple/affdex-sdk_osx_3_1_1_503.tar.gz"
   },
   "osx": {
-    "vendored_frameworks": "Affdex.framework",
+    "vendored_frameworks": "osx/Affdex.framework",
     "libraries": "c++",
     "frameworks": [
       "CoreMedia",
